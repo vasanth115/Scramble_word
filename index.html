@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gamepage.css">
+    <script src="gamepage.js" defer></script>
+    <title>WORD GAME</title>
+</head>
+<body>
+   <div class="heartcontainer">
+    <div class="heart"><p>heart :</p><span id="heart"></span></div>
+   </div>
+   <div class="coins">
+    <div class="coin"><p>coins :</p><span id="coins">200</span></div>
+   </div>
+    <div class="container">
+        <div class="small">
+            <div class="playgame" id="playgame">
+            <h1>WORD GAME</h1>
+            <h3 id="showword">ㅤ</h3>
+            <input type="text" placeholder="Enter the word" required id="input" autocomplete="off">
+            <button id="guess">GUESS</button>
+            </div>
+            <div class="buy" id="heartbuy">
+                <h2>1 HEART = 50 COINS</h2>
+                <input type="text" id="buyheart" required placeholder="Enter no.of.heart">
+                <button id="buy">buy</button>
+            </div>
+        </div>
+    </div>
+    <div class="buy">
+        <h2>1 HEART = 50 COINS</h2>
+        <input type="text" id="buyheart" required placeholder="Enter no.of.heart">
+        <button id="buy">buy</button>
+    </div>
+</body>
+</html>

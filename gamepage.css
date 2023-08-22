@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+   background: url(gamebackground.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.small
+{
+    border-radius: 10px;
+    background-color: #fff;
+    height: 350px;
+    width: 400px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.small h1
+{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.heart
+{
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.heart p
+{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.heartcontainer
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.coin
+{
+   height: 40px;
+   width: 200px;
+   background-color: #fff;
+   margin-top: 10px;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+}
+.coins
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.coin p
+{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.small h3
+{
+   font-size: 1.3rem;
+   font-weight: bold;
+   margin-top: 30px;
+}
+input
+{
+    padding: 10px 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+::placeholder
+{
+    color: blue;
+}
+#guess
+{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: black;
+}
+#guess:hover
+{
+    cursor: pointer;
+}
+#coins
+{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.buy
+{
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+}
+.playgame
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#buy
+{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
